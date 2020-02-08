@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Book extends Model
 {
-  /* Books contain only titles and authors. It's possible
-  to edit these attributes through the app or terminal.*/
+  /* Books contain only titles and authors, which must
+  be strings*/
   protected $fillable = [
         'title',
         'author',
